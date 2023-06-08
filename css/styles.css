@@ -848,16 +848,14 @@ border-color: var(--background-btn-first);
 }
 
 .modal-check-label{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;;
 }
 
-.modal-checkbox-span {
+.modal-check-span {
     width: 16px;
     height: 16px;
 
@@ -888,7 +886,7 @@ border-color: var(--background-btn-first);
 }
 
 
-.modal-chek:checked + .modal-check-label .modal-checkbox-span {
+.modal-chek-input:checked + .modal-check-label .modal-check-span {
 background-color: var(--focus-hover);
 border: none;
 fill: var(--btn-first);
